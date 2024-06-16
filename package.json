@@ -1,0 +1,22 @@
+{
+  "name": "headless-detect",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build1": "tsc --diagnostics -p tsconfig.json",
+    "build2": "tsc --diagnostics -p tsconfig.static.json",
+    "start": "node ./dist/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.11.3",
+    "hono": "^4.4.6",
+    "puppeteer": "^22.11.0"
+  }
+}
