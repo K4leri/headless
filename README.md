@@ -1,5 +1,10 @@
 # headless-detect
 
+To install dependencies:
+```bash
+bun install
+```
+
 First u should do 
 ```bash
 bun run build1
@@ -7,12 +12,6 @@ bun run build1
 <!-- ```bash
 bun run build2
 ``` -->
-
-To install dependencies:
-
-```bash
-bun install
-```
 
 Create `logs` folder and `temp` for nginx. (I dont know why nginx not in docker-compose, soryy)
 
