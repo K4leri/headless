@@ -14,6 +14,8 @@ To install dependencies:
 bun install
 ```
 
+Create `logs` folder and `temp` for nginx. (I dont know why nginx not in docker-compose, soryy)
+
 To run:
 ```bash
 nginx -c server.conf
@@ -23,7 +25,7 @@ nginx -c server.conf
 bun run start
 ```
 
-Visit your http://localhost
+Visit your http://localhost and check or look at console to see what headless pupputer will show.
 
 вообще очень какое-то странное решение сделал через nginx, обычно он через docker-compose разворачивается и все настройки и файлы уже через него передаются
 
